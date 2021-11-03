@@ -9,7 +9,7 @@ return<div class="ml-4 flex flex-col">
     User edit action
     </h6>
     </div>
-    <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+    <div class="shadow overflow-hidden mt-2 border-b border-gray-200 sm:rounded-lg">
       <table class="min-w-full border border-b-gray divide-y divide-gray-200">
         <thead class="bg-gray-50">
         <tr>

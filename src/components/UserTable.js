@@ -2,14 +2,14 @@ import React from "react";
 
 const UserTable = () =>{
 return <div class="flex flex-col flex-grow-0">
-<div class="-my-2 max-w-3xl overflow-x-auto sm:-mx-6 lg:-mx-8">
+<div class="-my-2 max-w-3xl overflow-x-hidden sm:-mx-6 lg:-mx-8">
   <div class="py-2 align-middle inline-block min-w-1/4 sm:px-6 lg:px-8">
   <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
     <h6 class="text-left leading-6 font-medium text-gray-800">
     Users
     </h6>
     </div>
-    <div class="shadow pt-2 overflow-hidden border-b border-gray-200 sm:rounded-lg">
+    <div class="shadow mt-2 overflow-hidden border border-gray-200 sm:rounded-lg">
       <table class="divide-y divide-gray-200">
         <thead class="bg-gray-50">
           <tr>
@@ -31,9 +31,7 @@ return <div class="flex flex-col flex-grow-0">
             <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
               ACTIONS
             </th>
-            {/* <th scope="col" class="relative px-6 py-3">
-              <span class="sr-only">Edit</span>
-            </th> */}
+            
           </tr>
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
@@ -194,7 +192,7 @@ return <div class="flex flex-col flex-grow-0">
               </td>
           </tr>
 
-          {/* <!-- More people... --> */}
+          
         </tbody>
       </table>
     </div>
