@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 const DetailsTable = () =>{
 return<div class="bg-white min-w-1/2 shadow overflow-hidden sm:rounded-lg">

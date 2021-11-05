@@ -22,43 +22,43 @@ const NavBar = (props) => {
             <div className="hidden lg:ml-6 lg:flex lg:space-x-8">
               {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
               <a
-                href="#"
+                href="/dashboard"
                 className="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Dashboard
               </a>
               <a
-                href="#"
+                href="/offers"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Offers
               </a>
               <a
-                href="#"
+                href="/advertisers"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Advertisers
               </a>
               <a
-                href="#"
+                href="/publishers"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Publishers
               </a>
               <a
-                href="#"
+                href="/reports"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Reports
               </a>
               <a
-                href="#"
+                href="/account"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Account
               </a>
               <a
-                href="#"
+                href="/help"
                 className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-small"
               >
                 Help
@@ -215,7 +215,7 @@ const NavBar = (props) => {
                 >
                   {/* <!-- Active: "bg-gray-100", Not Active: "" --> */}
                   <a
-                    href="#"
+                    href="/profile"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -224,7 +224,7 @@ const NavBar = (props) => {
                     Your Profile
                   </a>
                   <a
-                    href="#"
+                    href="/settings"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -233,7 +233,7 @@ const NavBar = (props) => {
                     Settings
                   </a>
                   <a
-                    href="#"
+                    href="/signout"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
                     tabindex="-1"
@@ -253,25 +253,25 @@ const NavBar = (props) => {
         <div className="pt-2 pb-3 space-y-1">
           {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" --> */}
           <a
-            href="#"
+            href="/dashboard"
             className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Dashboard
           </a>
           <a
-            href="#"
+            href="/team"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Team
           </a>
           <a
-            href="#"
+            href="/projects"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Projects
           </a>
           <a
-            href="#"
+            href="calender"
             className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
           >
             Calendar
@@ -319,19 +319,19 @@ const NavBar = (props) => {
           </div>
           <div className="mt-3 space-y-1">
             <a
-              href="#"
+              href="/profile"
               className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100"
             >
               Your Profile
             </a>
             <a
-              href="#"
+              href="/settings"
               className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100"
             >
               Settings
             </a>
             <a
-              href="#"
+              href="/signout"
               className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100"
             >
               Sign out

@@ -74,7 +74,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>
@@ -102,7 +102,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>
@@ -130,7 +130,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>
@@ -158,7 +158,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>
@@ -186,7 +186,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>
@@ -214,7 +214,7 @@ const UserTable = () => {
                     </span>
                   </td>
                   <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                    <a href="#" class="text-indigo-600 hover:text-indigo-900">
+                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
                     </a>
                   </td>

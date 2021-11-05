@@ -27,7 +27,7 @@ const PageBar = () => {
         >
           {/* <!-- Current: "text-gray-900", Default: "text-gray-500 hover:text-gray-700" --> */}
           <a
-            href="#"
+            href="/account"
             class="text-gray-900 group relative w-36 border border-t-0  overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 focus:z-10"
             aria-current="page"
           >
@@ -39,7 +39,7 @@ const PageBar = () => {
           </a>
 
           <a
-            href="#"
+            href="/billing"
             class="text-gray-500 hover:text-gray-700 group relative w-36  overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 focus:z-10"
           >
             <span>Billing</span>
@@ -50,7 +50,7 @@ const PageBar = () => {
           </a>
 
           <a
-            href="#"
+            href="/settings"
             class="text-gray-500 group relative w-36 border border-t-0 border-b-0 overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 focus:z-10"
           >
             <span>Settings</span>
@@ -61,7 +61,7 @@ const PageBar = () => {
           </a>
           {/* dummy space */}
           <a
-            href="#"
+            href="/settings"
             class="text-gray-500 group relative border border-t-0 border-b-0 overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 focus:z-10"
           >
             <span></span>
