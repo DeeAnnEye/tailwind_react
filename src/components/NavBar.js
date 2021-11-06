@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-const NavBar = (props) => {
+const NavBar = ({path}) => {
+  
   const { showDropDown, setShowDropDown } = useState(false);
   return (
     <nav className="bg-white shadow">
