@@ -15,7 +15,7 @@ return (
     <div>
         <Routes>
         <Route path='/account' element={<Account path="account"/>} />
-        <Route path='/advertiser' element={<Advertiser/>} />
+        <Route path='/advertisers' element={<Advertiser/>} />
         </Routes>
     </div>   
 </Router>
