@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvertiserUsertable = () =>{
 return (
-    <div class="flex flex-col flex-grow-0">
+    <div class="flex flex-col bg-none h-2/4 flex-grow-0">
       <div class="-my-2 max-w-3xl overflow-x-hidden sm:-mx-6 lg:-mx-8">
         <div class="py-2 align-middle inline-block min-w-1/4 sm:px-6 lg:px-8">
         <div className=" flex justify-between px-4 py-5 border border-b-gray sm:px-6">
@@ -18,7 +18,7 @@ return (
            </button>
            </div>
           </div>
-          <div class="shadow m-px overflow-hidden border border-gray-200 sm:rounded-lg">
+          <div class="shadow m-px overflow-hidden h-5/6 border border-gray-200 sm:rounded-lg">
             <table class="divide-y divide-gray-200">
               <thead class="bg-gray-50">
                 <tr>
@@ -61,7 +61,7 @@ return (
                 </tr>
               </thead>
               <tbody class="bg-white divide-y divide-gray-200">
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -86,10 +86,12 @@ return (
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
                       Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -113,11 +115,13 @@ return (
                   </td>
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                      Edit
+                    Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -141,11 +145,13 @@ return (
                   </td>
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                      Edit
+                    Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -169,11 +175,13 @@ return (
                   </td>
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                      Edit
+                    Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -197,11 +205,13 @@ return (
                   </td>
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                      Edit
+                    Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -225,7 +235,9 @@ return (
                   </td>
                   <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
                     <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                      Edit
+                    Edit
+                      Change Password
+                      Login
                     </a>
                   </td>
                 </tr>
