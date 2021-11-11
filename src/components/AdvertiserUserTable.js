@@ -5,7 +5,7 @@ return (
     <div class="flex flex-col bg-none h-2/4 flex-grow-0">
       <div class="-my-2 max-w-3xl overflow-x-hidden sm:-mx-6 lg:-mx-8">
         <div class="py-2 align-middle inline-block min-w-1/4 sm:px-6 lg:px-8">
-        <div className=" flex justify-between px-4 py-5 border border-b-gray sm:px-6">
+        <div className=" flex justify-between px-4 py-5 border border-t-0 border-b-gray rounded-md sm:px-6">
          <div className="text-left text-xl text-gray-800">
           Users
          </div>

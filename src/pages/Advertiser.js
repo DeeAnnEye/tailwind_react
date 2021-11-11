@@ -6,6 +6,7 @@ import AdvertiserDetails from "../components/AdvertiserDetails"
 import NavBar from "../components/NavBar";
 import AdvertiserUsertable from "../components/AdvertiserUserTable";
 import AdvertiserPublisher from "../components/AdvertiserPublisher";
+import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 
 const Advertiser = () =>{
 return <div class="min-h-full">
@@ -15,8 +16,11 @@ return <div class="min-h-full">
     <div className=" flex flex-row px-4 gap-4 py-4 flex-wrap">
     <AdvertiserDetails />
     <AdvertiserUsertable />
-    <AdvertiserPublisher />
   </div>
+  <div className=" flex flex-row px-4 gap-4 py-4 flex-nowrap">
+  <AdvertiserPublisher />
+ <AdvertiserActivityLog />
+    </div>
 </div>
 }
 
