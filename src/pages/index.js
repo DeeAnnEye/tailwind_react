@@ -7,6 +7,7 @@ import {
 
 import Account from "./Account.js";
 import Advertiser from "./Advertiser.js";
+import Billing from "./Billing.js";
 
 
 const Index = () =>{
@@ -16,6 +17,7 @@ return (
         <Routes>
         <Route path='/account' element={<Account path="account"/>} />
         <Route path='/advertisers' element={<Advertiser/>} />
+        <Route path='/billing' element={<Billing/>} />
         </Routes>
     </div>   
 </Router>
