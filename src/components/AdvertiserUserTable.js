@@ -3,7 +3,7 @@ import React from "react";
 const AdvertiserUsertable = () =>{
 return (
     <div class="flex flex-col bg-none h-2/4 flex-grow-0">
-      <div class="-my-2 max-w-3xl overflow-x-hidden sm:-mx-6 lg:-mx-8">
+      <div class="max-w-3xl overflow-x-hidden sm:-mx-6 lg:-mx-8">
         <div class="py-2 align-middle inline-block min-w-1/4 sm:px-6 lg:px-8">
         <div className=" flex justify-between px-4 py-5 border border-t-0 border-b-gray rounded-md sm:px-6">
          <div className="text-left text-xl text-gray-800">
@@ -181,37 +181,7 @@ return (
                     </a>
                   </td>
                 </tr>
-                <tr class="h-4">
-                  <td class="px-6 py-4 whitespace-wrap">
-                    <div class="flex items-center">
-                      <div class="flex-shrink-0">12</div>
-                    </div>
-                  </td>
-                  <td class="px-6 py-4 whitespace-wrap">
-                    <div class="text-sm text-gray-500">Jane Cooper</div>
-                  </td>
-                  <td class="px-6 py-4 whitespace-wrap">
-                    <div class="text-sm text-gray-500">
-                      Jane.cooper@example.com
-                    </div>
-                  </td>
-                  <td class="px-6 py-4 whitespace-wrap text-sm text-gray-500">
-                    Admin
-                  </td>
-                  <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
-                    <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-300 text-red-800">
-                      Inactive
-                    </span>
-                  </td>
-                  <td class="px-6 py-4 whitespace-wrap text-center text-sm font-medium">
-                    <a href="/edit" class="text-indigo-600 hover:text-indigo-900">
-                    Edit
-                      Change Password
-                      Login
-                    </a>
-                  </td>
-                </tr>
-                <tr class="h-4">
+                {/* <tr class="h-4">
                   <td class="px-6 py-4 whitespace-wrap">
                     <div class="flex items-center">
                       <div class="flex-shrink-0">12</div>
@@ -240,7 +210,7 @@ return (
                       Login
                     </a>
                   </td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>
