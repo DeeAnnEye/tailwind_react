@@ -9,6 +9,7 @@ import AdvertiserPublisher from "../components/AdvertiserPublisher";
 import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 import AdvertiserDetailsEdit from "../components/AdvertiserDetailsEdit"
 import EditTable from "../components/EditTable"
+import AdvertiserUserEdit from "../components/AdvertiserUserEdit";
 
 const Advertiser = () =>{
 return <div class="min-h-full">
@@ -27,7 +28,7 @@ return <div class="min-h-full">
     </div>
     <AdvertiserProfile />
     <AdvertiserDetailsEdit />
-    <EditTable />
+    <AdvertiserUserEdit />
 </div>
 }
 
