@@ -2,7 +2,7 @@ import React from "react";
 
 const BillingSubscription = () => {
 return (
-    <div class="bg-white w-2/4 shadow overflow-hidden sm:rounded-lg">
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
         <div class="px-4 py-5 sm:px-6">
   <h6 class="text-left leading-6 text-lg text-gray-700">
    Subscription Information

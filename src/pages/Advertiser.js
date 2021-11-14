@@ -8,7 +8,7 @@ import AdvertiserUsertable from "../components/AdvertiserUserTable";
 import AdvertiserPublisher from "../components/AdvertiserPublisher";
 import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 import AdvertiserDetailsEdit from "../components/AdvertiserDetailsEdit"
-import EditTable from "../components/EditTable"
+// import EditTable from "../components/EditTable"
 import AdvertiserUserEdit from "../components/AdvertiserUserEdit";
 
 const Advertiser = () =>{
