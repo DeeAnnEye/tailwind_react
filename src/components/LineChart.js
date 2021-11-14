@@ -17,9 +17,7 @@ const options = {
     legend: {
         display: false
     },
-    // animation: {
-    //     easing: "easeInOutBack"
-    // },
+    
     scales: {
         x: {
             grid:{

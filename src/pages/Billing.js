@@ -5,6 +5,7 @@ import BillingSubscription from "../components/BillingSubscription";
 import PageBar from "../components/PageBar";
 import BillingAction from "../components/BillingAction";
 import LineChart from "../components/LineChart";
+import BillingInvoicePublisher from "../components/BillingInvoicePublisher";
 
 const Billing = () => {
   return (
@@ -17,7 +18,8 @@ const Billing = () => {
         </div>
         <BillingAction />
       </div>
-      <LineChart />     
+      <LineChart />
+      <BillingInvoicePublisher />     
     </div>
   );
 };
