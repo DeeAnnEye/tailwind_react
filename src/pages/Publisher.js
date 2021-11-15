@@ -3,6 +3,7 @@ import AdvertiserPageBar from "../components/AdvertiserPageBar";
 import NavBar from "../components/NavBar";
 import PublisherProfile from "../components/PublisherProfile";
 import PublisherDetails from "../components/PublisherDetails"
+import PublisherOfferAccess from "../components/PublisherOfferAccess";
 
 const Publisher = () => {
   return <div class="min-h-full">
@@ -12,6 +13,7 @@ const Publisher = () => {
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mb-10 bg-white shadow">
         <div className="flex flex-col">
           <PublisherDetails />
+          <PublisherOfferAccess />
         </div>
         </div>
   </div>;
