@@ -132,8 +132,8 @@ const BillingAction = () => {
           </div>
         </dl>
       </div>
-      <div class="shadow mx-8 my-2 w-max overflow-hidden border border-gray-200 sm:rounded-lg">
-        <table class="divide-y divide-gray-200">
+      <div class="shadow w-11/12 mx-8 mb-4 overflow-hidden border border-gray-200 sm:rounded-lg">
+        <table class=" w-full divide-y divide-gray-200">
           <thead class="bg-gray-50">
             <tr>
               <th
