@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import PublisherProfile from "../components/PublisherProfile";
 import PublisherDetails from "../components/PublisherDetails"
 import PublisherOfferAccess from "../components/PublisherOfferAccess";
+import PublisherQA from "../components/PublisherQA";
 
 const Publisher = () => {
   return <div class="min-h-full">
@@ -14,6 +15,7 @@ const Publisher = () => {
         <div className="flex flex-col">
           <PublisherDetails />
           <PublisherOfferAccess />
+          <PublisherQA />
         </div>
         </div>
   </div>;
