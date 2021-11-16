@@ -1,4 +1,5 @@
 import React from "react";
+import PublisherOfferTable from "./PublisherOfferTable";
 
 const OfferPayouts = () => {
   return (
@@ -146,6 +147,7 @@ const OfferPayouts = () => {
         ADD
       </button>
       </div>
+      <PublisherOfferTable />
     </div>
   );
 };
