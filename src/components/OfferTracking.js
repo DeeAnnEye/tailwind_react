@@ -1,4 +1,5 @@
 import React from "react";
+import TrackingTable from "../components/TrackingTable";
 
 const OfferTracking = () => {
   return (
@@ -59,6 +60,7 @@ const OfferTracking = () => {
           <option>Publisher 3</option>
         </select>
       </div>
+      <TrackingTable />
     </div>
   );
 };

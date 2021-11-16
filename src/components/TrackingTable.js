@@ -28,14 +28,14 @@ const TrackingTable = () => {
       <tbody class="bg-white divide-y divide-gray-200">
         <tr>
           <td class="px-6 py-4 whitespace-nowrap">
-            <div class="flex items-center">
+            <div class="flex items-left">
               <div class="flex-shrink-0">Offer 1</div>
             </div>
           </td>
           <td class="px-6 py-4 whitespace-nowrap">
             <div class="text-sm text-gray-500">Exampletracking.com</div>
           </td>
-          <td class="px-6 py-4 whitespace-nowrap text-sm">
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-500">
             <a href="/edit">Edit </a>
           </td>
         </tr>
@@ -48,7 +48,7 @@ const TrackingTable = () => {
           <td class="px-6 py-4 whitespace-nowrap">
             <div class="text-sm text-gray-500">Exampletracking.com</div>
           </td>
-          <td class="px-6 py-4 whitespace-nowrap text-sm">
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-500">
             <a href="/edit">Edit </a>
           </td>
         </tr>
@@ -61,7 +61,7 @@ const TrackingTable = () => {
           <td class="px-6 py-4 whitespace-nowrap">
             <div class="text-sm text-gray-500">Exampletracking.com</div>
           </td>
-          <td class="px-6 py-4 whitespace-nowrap text-sm">
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-500">
             <a href="/edit">Edit </a>
           </td>
         </tr>
@@ -74,7 +74,7 @@ const TrackingTable = () => {
           <td class="px-6 py-4 whitespace-nowrap">
             <div class="text-sm text-gray-500">Exampletracking.com</div>
           </td>          
-          <td class="px-6 py-4 whitespace-nowrap text-sm">
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-500">
             <a href="/edit">Edit </a>
           </td>
         </tr>
@@ -87,7 +87,7 @@ const TrackingTable = () => {
           <td class="px-6 py-4 whitespace-nowrap">
             <div class="text-sm text-gray-500">Exampletracking.com</div>
           </td>
-          <td class="px-6 py-4 whitespace-nowrap text-sm">
+         <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-500">
             <a href="/edit">Edit </a>
           </td>
         </tr>
