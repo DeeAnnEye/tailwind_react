@@ -65,17 +65,26 @@ const OfferPayouts = () => {
         <div class="sm:col-span-1">
           <dt class="text-left font-small text-gray-500">Clip Cap:</dt>
           <dd class="mt-1 text-left text-gray-900">
-            <div class="mt-1">
-              <div class="sm:col-span-2">
+            <div class="mt-1 relative rounded-md border border-gray-300 w-60 pl-3 pr-10 py-2 shadow-sm">
+              {/* <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <span class="text-gray-500 sm:text-sm">$</span>
+              </div> */}
+              <input
+                type="text"
+                name="price"
+                id="price"
+                class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="123 / Total"
+              />
+              <div class="absolute inset-y-0 right-0 flex items-center">
                 <select
-                  id="card"
-                  name="mastercard"
-                  autocomplete="card-name"
-                  class="block w-60 pl-3 pr-10 py-2 text-base text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base rounded-md"
+                  id="currency"
+                  name="currency"
+                  class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-2 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
                 >
-                  <option>123/total</option>
-                  <option>card 2</option>
-                  <option>card 3</option>
+                  <option>Year</option>
+                  <option>2021</option>
+                  <option>2022</option>
                 </select>
               </div>
             </div>
@@ -84,17 +93,26 @@ const OfferPayouts = () => {
         <div class="sm:col-span-1">
           <dt class="text-left font-small text-gray-500">Conversion Cap:</dt>
           <dd class="mt-1 text-left text-gray-900">
-            <div class="mt-1">
-              <div class="sm:col-span-2">
+            <div class="mt-1 relative rounded-md border border-gray-300 w-60 pl-3 pr-10 py-2 shadow-sm">
+              {/* <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <span class="text-gray-500 sm:text-sm">$</span>
+              </div> */}
+              <input
+                type="text"
+                name="price"
+                id="price"
+                class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="123 / Total"
+              />
+              <div class="absolute inset-y-0 right-0 flex items-center">
                 <select
-                  id="card"
-                  name="mastercard"
-                  autocomplete="card-name"
-                  class="block w-60 pl-3 pr-10 py-2 text-base text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base rounded-md"
+                  id="currency"
+                  name="currency"
+                  class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-2 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
                 >
-                  <option>123/total</option>
-                  <option>card 2</option>
-                  <option>card 3</option>
+                  <option>Year</option>
+                  <option>2021</option>
+                  <option>2022</option>
                 </select>
               </div>
             </div>
@@ -103,17 +121,26 @@ const OfferPayouts = () => {
         <div class="sm:col-span-1">
           <dt class="text-left font-small text-gray-500">Revenue Cap:</dt>
           <dd class="mt-1 text-left text-gray-900">
-            <div class="mt-1">
-              <div class="sm:col-span-2">
+            <div class="mt-1 relative rounded-md border border-gray-300 w-60 pl-3 pr-10 py-2 shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <span class="text-gray-500 sm:text-sm">$</span>
+              </div>
+              <input
+                type="text"
+                name="price"
+                id="price"
+                class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="1.23 / Total"
+              />
+              <div class="absolute inset-y-0 right-0 flex items-center">
                 <select
-                  id="card"
-                  name="mastercard"
-                  autocomplete="card-name"
-                  class="block w-60 pl-3 pr-10 py-2 text-base text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base rounded-md"
+                  id="currency"
+                  name="currency"
+                  class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-2 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
                 >
-                  <option>$ 12.3/total</option>
-                  <option>card 2</option>
-                  <option>card 3</option>
+                  <option>Year</option>
+                  <option>2021</option>
+                  <option>2022</option>
                 </select>
               </div>
             </div>
@@ -122,17 +149,26 @@ const OfferPayouts = () => {
         <div class="sm:col-span-1">
           <dt class="text-left font-small text-gray-500">Payout Cap:</dt>
           <dd class="mt-1 text-left text-gray-900">
-            <div class="mt-1">
-              <div class="sm:col-span-2">
+            <div class="mt-1 relative rounded-md border border-gray-300 w-60 pl-3 pr-10 py-2 shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <span class="text-gray-500 sm:text-sm">$</span>
+              </div>
+              <input
+                type="text"
+                name="price"
+                id="price"
+                class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="11.3 / Total"
+              />
+              <div class="absolute inset-y-0 right-0 flex items-center">
                 <select
-                  id="card"
-                  name="mastercard"
-                  autocomplete="card-name"
-                  class="block w-60 pl-3 pr-10 py-2 text-base text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-base rounded-md"
+                  id="currency"
+                  name="currency"
+                  class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-2 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
                 >
-                  <option>$ 12.3/total</option>
-                  <option>card 2</option>
-                  <option>card 3</option>
+                  <option>Year</option>
+                  <option>2021</option>
+                  <option>2022</option>
                 </select>
               </div>
             </div>
@@ -140,12 +176,12 @@ const OfferPayouts = () => {
         </div>
       </dl>
       <div className="flex flex-row ml-72">
-      <button
-        type="button"
-        class="items-center my-4 px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-      >
-        ADD
-      </button>
+        <button
+          type="button"
+          class="items-center my-4 px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          ADD
+        </button>
       </div>
       <PublisherOfferTable />
     </div>
