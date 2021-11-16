@@ -5,6 +5,8 @@ import PublisherProfile from "../components/PublisherProfile";
 import PublisherDetails from "../components/PublisherDetails"
 import PublisherOfferAccess from "../components/PublisherOfferAccess";
 import PublisherQA from "../components/PublisherQA";
+import AdvertiserActivityLog from "../components/AdvertiserActivityLog"
+import OfferPayouts from "../components/OfferPayouts";
 
 const Publisher = () => {
   return <div class="min-h-full">
@@ -16,6 +18,8 @@ const Publisher = () => {
           <PublisherDetails />
           <PublisherOfferAccess />
           <PublisherQA />
+          <AdvertiserActivityLog />
+          <OfferPayouts />
         </div>
         </div>
   </div>;
