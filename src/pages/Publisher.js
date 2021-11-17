@@ -9,6 +9,8 @@ import AdvertiserActivityLog from "../components/AdvertiserActivityLog"
 import OfferPayouts from "../components/OfferPayouts";
 import OfferTracking from "../components/OfferTracking";
 import ConversionPixel from "../components/ConversionPixel";
+import AdvertiserUserTable from "../components/AdvertiserUserTable"
+import BillingDetails from "../components/BillingDetails";
 
 const Publisher = () => {
   return <div class="min-h-full">
@@ -25,7 +27,9 @@ const Publisher = () => {
         </div>
         <div className="flex flex-col">
           <OfferTracking />
-          <ConversionPixel />         
+          <ConversionPixel /> 
+          <AdvertiserUserTable /> 
+          <BillingDetails />       
         </div>
         </div>
   </div>;
