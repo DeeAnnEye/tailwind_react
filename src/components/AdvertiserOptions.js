@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvertiserOptions = () => {
   return (
-    <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-2">
+    <div className="grid grid-cols-2 my-2 mx-8">
       <div className="flex flex-row flex-wrap">
         <div class="sm:col-span-2 mr-2 mt-2">
           <select
@@ -77,7 +77,7 @@ const AdvertiserOptions = () => {
           </select>
         </div>
       </div>
-      <div className="ml-16 flex flex-row">
+      <div className="flex flex-row absolute inset-y-56 right-8">
       <div class="sm:col-span-2 mr-2 mt-2">
           <select
             id="card"
