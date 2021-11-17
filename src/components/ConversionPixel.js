@@ -1,4 +1,5 @@
 import React from "react";
+import ConversionTable from "./ConversionTable";
 
 const ConversionPixel = () => {
   return (
@@ -82,6 +83,7 @@ const ConversionPixel = () => {
           </dd>
         </div>
       </dl>
+      <ConversionTable />
     </div>
   );
 };
