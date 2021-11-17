@@ -1,7 +1,7 @@
 import React from "react";
 
 const TrackingTable = () => {
-    return  <div class="shadow mx-2 my-2 overflow-hidden border border-gray-200 sm:rounded-lg">
+    return  <div class="shadow mx-2 my-4 overflow-hidden border border-gray-200 sm:rounded-lg">
     <table class="w-full divide-y divide-gray-200">
       <thead class="bg-gray-50">
         <tr>
