@@ -11,13 +11,16 @@ import OfferTracking from "../components/OfferTracking";
 import ConversionPixel from "../components/ConversionPixel";
 import AdvertiserUserTable from "../components/AdvertiserUserTable"
 import BillingDetails from "../components/BillingDetails";
+import AdvertiserDetailsEdit from "../components/AdvertiserDetailsEdit";
+import BillingDetailsAction from "../components/BillingDetailsAction";
+import AdvertiserUserEdit from "../components/AdvertiserUserEdit";
 
 const Publisher = () => {
   return <div class="min-h-full">
       <NavBar />
       <AdvertiserPageBar />
       <PublisherProfile />
-      <div className=" grid grid-cols-2 px-4 py-4 gap-4 mb-10 bg-white shadow">
+      <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
           <PublisherDetails />
           <PublisherOfferAccess />
@@ -31,6 +34,14 @@ const Publisher = () => {
           <AdvertiserUserTable /> 
           <BillingDetails />       
         </div>
+        </div>
+        <div className="mt-2">
+        <PublisherProfile />
+        <div className="flex flex-row gap-4 mb-8">
+          <AdvertiserDetailsEdit />
+          <BillingDetailsAction />
+        </div>
+        <AdvertiserUserEdit />
         </div>
   </div>;
 };
