@@ -70,6 +70,16 @@ const AdvertiserPGB = () => {
               class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"
             ></span>
           </a>
+          <a
+            href="/settings"
+            class="text-gray-500 group relative border border-t-0 border-b-0 overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 focus:z-10"
+          >
+            <span></span>
+            <span
+              aria-hidden="true"
+              class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"
+            ></span>
+          </a>
 
           <div className=" flex flex-row gap-4 mr-20 absolute inset-y-2 right-2">
             <button
