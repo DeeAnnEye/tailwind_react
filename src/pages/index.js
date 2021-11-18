@@ -9,6 +9,7 @@ import Account from "./Account.js";
 import Advertiser from "./Advertiser.js";
 import Billing from "./Billing.js";
 import ManageAdvertiser from "./ManageAdvertiser.js";
+import ManagePublisher from "./ManagePublisher.js";
 import Publisher from "./Publisher.js";
 
 
@@ -22,6 +23,7 @@ return (
         <Route path='/billing' element={<Billing/>} />
         <Route path='/publisher' element={<Publisher/>} />
         <Route path='/manage-advertiser' element={<ManageAdvertiser/>} />
+        <Route path='/manage-publisher' element={<ManagePublisher/>} />
         </Routes>
     </div>   
 </Router>

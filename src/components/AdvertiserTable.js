@@ -138,8 +138,8 @@ return <div class="shadow mx-2 my-4 overflow-hidden border border-gray-200 sm:ro
         <div class="text-sm text-gray-500">Advertiser 1</div>
       </td>
       <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-          Active
+        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">
+          Inactive
         </span>
       </td>
       <td class="px-6 py-4 whitespace-nowrap">
