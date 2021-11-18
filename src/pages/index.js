@@ -11,6 +11,7 @@ import Billing from "./Billing.js";
 import ManageAdvertiser from "./ManageAdvertiser.js";
 import ManagePublisher from "./ManagePublisher.js";
 import Publisher from "./Publisher.js";
+import Settings from "./Settings.js";
 
 
 const Index = () =>{
@@ -24,6 +25,7 @@ return (
         <Route path='/publisher' element={<Publisher/>} />
         <Route path='/manage-advertiser' element={<ManageAdvertiser/>} />
         <Route path='/manage-publisher' element={<ManagePublisher/>} />
+        <Route path='/settings' element={<Settings/>} />
         </Routes>
     </div>   
 </Router>
