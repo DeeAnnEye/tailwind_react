@@ -1,5 +1,6 @@
 import React from "react";
 import AdvertiserSettings from "../components/AdvertiserSettings";
+import EmailNotifications from "../components/EmailNotifications";
 import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
@@ -12,12 +13,13 @@ const Settings = () => {
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
           <SettingsApplication />
-          <p className="text-base text-blue-600 my-4 ml-4 text-left">
+          <a href="/email" className="text-base text-blue-600 my-4 ml-4 text-left">
             Manage Email Notifications Subscriptions
-          </p>
+          </a>
           <OfferSettings />
           <AdvertiserSettings />
           <ImportExport />
+          <EmailNotifications />
         </div>
       </div>
     </div>
