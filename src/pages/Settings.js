@@ -1,4 +1,5 @@
 import React from "react";
+import AdvertiserSettings from "../components/AdvertiserSettings";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
 import SettingsApplication from "../components/SettingsApplication";
@@ -14,6 +15,7 @@ const Settings = () => {
             Manage Email Notifications Subscriptions
           </p>
           <OfferSettings />
+          <AdvertiserSettings />
         </div>
       </div>
     </div>
