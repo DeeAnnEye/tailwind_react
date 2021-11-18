@@ -7,7 +7,7 @@ import AdvertiserTable from "../components/AdvertiserTable";
 import NavBar from "../components/NavBar";
 
 const ManageAdvertiser = () =>{
-return <div class="min-h-full">
+return <div class="h-full">
 <NavBar />
 <AdvertiserPageBar />
 <AdvertiserPGB />

@@ -3,8 +3,8 @@ import React from "react";
 const AdvertiserOptions = () => {
   return (
     <div className="grid grid-cols-2 my-2 mx-8">
-      <div className="flex flex-row flex-wrap">
-        <div class="sm:col-span-2 mr-2 mt-2">
+      <div className="flex flex-row gap-px flex-wrap">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
@@ -16,7 +16,7 @@ const AdvertiserOptions = () => {
             <option>card 3</option>
           </select>
         </div>
-        <div class="sm:col-span-2 mr-2 mt-2">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
@@ -28,7 +28,7 @@ const AdvertiserOptions = () => {
             <option>card 3</option>
           </select>
         </div>
-        <div class="sm:col-span-2 mr-2 mt-2">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
@@ -40,7 +40,7 @@ const AdvertiserOptions = () => {
             <option>card 3</option>
           </select>
         </div>
-        <div class="sm:col-span-2 mr-2 mt-2">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
@@ -52,7 +52,7 @@ const AdvertiserOptions = () => {
             <option>card 3</option>
           </select>
         </div>
-        <div class="sm:col-span-2 mr-2 mt-2">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
@@ -64,7 +64,7 @@ const AdvertiserOptions = () => {
             <option>card 3</option>
           </select>
         </div>
-        <div class="sm:col-span-2 mr-2 mt-2">
+        <div class="sm:col-span-2 mt-2">
           <select
             id="card"
             name="mastercard"
