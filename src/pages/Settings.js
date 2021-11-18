@@ -5,6 +5,7 @@ import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
 import SettingsApplication from "../components/SettingsApplication";
+import TermsConditions from "../components/TermsConditions";
 
 const Settings = () => {
   return (
@@ -20,6 +21,7 @@ const Settings = () => {
           <AdvertiserSettings />
           <ImportExport />
           <EmailNotifications />
+          <TermsConditions />
         </div>
       </div>
     </div>
