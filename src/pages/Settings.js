@@ -8,6 +8,7 @@ import SettingsApplication from "../components/SettingsApplication";
 import SettingsLink from "../components/SettingsLink";
 import SMTPSettings from "../components/SMTPSettings";
 import TermsConditions from "../components/TermsConditions";
+import TrackingSettings from "../components/TrackingSettings";
 
 const Settings = () => {
   return (
@@ -28,6 +29,7 @@ const Settings = () => {
         <div className="flex flex-col">
             <SettingsLink />
             <SMTPSettings />
+            <TrackingSettings />
         </div>
       </div>
     </div>
