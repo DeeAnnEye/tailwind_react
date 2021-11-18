@@ -5,6 +5,8 @@ import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
 import SettingsApplication from "../components/SettingsApplication";
+import SettingsLink from "../components/SettingsLink";
+import SMTPSettings from "../components/SMTPSettings";
 import TermsConditions from "../components/TermsConditions";
 
 const Settings = () => {
@@ -22,6 +24,10 @@ const Settings = () => {
           <ImportExport />
           <EmailNotifications />
           <TermsConditions />
+        </div>
+        <div className="flex flex-col">
+            <SettingsLink />
+            <SMTPSettings />
         </div>
       </div>
     </div>
