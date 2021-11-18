@@ -1,5 +1,6 @@
 import React from "react";
 import AdvertiserSettings from "../components/AdvertiserSettings";
+import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
 import SettingsApplication from "../components/SettingsApplication";
@@ -16,6 +17,7 @@ const Settings = () => {
           </p>
           <OfferSettings />
           <AdvertiserSettings />
+          <ImportExport />
         </div>
       </div>
     </div>
