@@ -2,7 +2,7 @@ import React from "react";
 
 const SettingsPGB = () => {
   return (
-    <div class="mt-5">
+    <div class="mt-12">
       <div class="sm:hidden">
         <select
           id="tabs"
