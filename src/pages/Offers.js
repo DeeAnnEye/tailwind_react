@@ -5,6 +5,7 @@ import PublisherProfile from "../components/PublisherProfile";
 import OfferDetails from "../components/OfferDetails";
 import OfferAssets from "../components/OfferAssets";
 import SettingsOffer from "../components/SettingsOffer";
+import ScheduleChange from "../components/ScheduleChange";
 
 const Offers = () => {
   return (
@@ -17,6 +18,7 @@ const Offers = () => {
             <OfferDetails />
             <OfferAssets />
             <SettingsOffer />
+            <ScheduleChange />
         </div>
       </div>
     </div>
