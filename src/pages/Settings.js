@@ -4,6 +4,7 @@ import EmailNotifications from "../components/EmailNotifications";
 import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
+import PublisherSettings from "../components/PublisherSettings";
 import SettingsApplication from "../components/SettingsApplication";
 import SettingsLink from "../components/SettingsLink";
 import SMTPSettings from "../components/SMTPSettings";
@@ -30,6 +31,7 @@ const Settings = () => {
             <SettingsLink />
             <SMTPSettings />
             <TrackingSettings />
+            <PublisherSettings />
         </div>
       </div>
     </div>
