@@ -1,5 +1,7 @@
 import React from "react";
+import AdvertiserPagination from "../components/AdvertiserPagination";
 import AdvertiserSettings from "../components/AdvertiserSettings";
+import EmailAlertsTable from "../components/EmailAlertsTable";
 import EmailNotifications from "../components/EmailNotifications";
 import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
@@ -38,6 +40,8 @@ const Settings = () => {
       </div>
       <SettingsPGB />
       <SettingsSearch />
+      <EmailAlertsTable />
+      <AdvertiserPagination />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvertiserPagination = () => {
   return (
-    <div class="bg-white my-2 px-4 py-3 flex items-center justify-between border-t-0 border-gray-200 sm:px-6">
+    <div class="shadow bg-white my-2 px-4 py-3 flex items-center justify-between border-t-0 border-gray-200 sm:px-6">
       <div class="flex-1 flex justify-between sm:hidden">
         <a
           href="/previous"
