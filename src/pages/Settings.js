@@ -1,6 +1,7 @@
 import React from "react";
 import AdvertiserPagination from "../components/AdvertiserPagination";
 import AdvertiserSettings from "../components/AdvertiserSettings";
+import ComposeEmailSettings from "../components/ComposeEmailSettings";
 import EmailAlertsTable from "../components/EmailAlertsTable";
 import EmailNotifications from "../components/EmailNotifications";
 import ImportExport from "../components/ImportExport";
@@ -44,6 +45,7 @@ const Settings = () => {
       <EmailAlertsTable />
       <AdvertiserPagination />
       <RecipientSettings />
+      <ComposeEmailSettings />
     </div>
   );
 };
