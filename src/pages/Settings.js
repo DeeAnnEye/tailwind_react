@@ -7,6 +7,7 @@ import ImportExport from "../components/ImportExport";
 import OfferSettings from "../components/OfferSettings";
 import PageBar from "../components/PageBar";
 import PublisherSettings from "../components/PublisherSettings";
+import RecipientSettings from "../components/RecipientSettings";
 import SettingsApplication from "../components/SettingsApplication";
 import SettingsLink from "../components/SettingsLink";
 import SettingsPGB from "../components/SettingsPGB";
@@ -42,6 +43,7 @@ const Settings = () => {
       <SettingsSearch />
       <EmailAlertsTable />
       <AdvertiserPagination />
+      <RecipientSettings />
     </div>
   );
 };
