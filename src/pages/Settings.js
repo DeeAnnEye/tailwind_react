@@ -7,6 +7,7 @@ import PageBar from "../components/PageBar";
 import PublisherSettings from "../components/PublisherSettings";
 import SettingsApplication from "../components/SettingsApplication";
 import SettingsLink from "../components/SettingsLink";
+import SettingsPGB from "../components/SettingsPGB";
 import SMTPSettings from "../components/SMTPSettings";
 import TermsConditions from "../components/TermsConditions";
 import TrackingSettings from "../components/TrackingSettings";
@@ -34,6 +35,7 @@ const Settings = () => {
             <PublisherSettings />
         </div>
       </div>
+      <SettingsPGB />
     </div>
   );
 };

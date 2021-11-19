@@ -4,7 +4,6 @@ const AdvertiserPGB = () => {
   return (
     <div class="mt-5">
       <div class="sm:hidden">
-        {/* <!-- Use an "onChange" listener to redirect the user to the selected tab URL. --> */}
         <select
           id="tabs"
           name="tabs"
