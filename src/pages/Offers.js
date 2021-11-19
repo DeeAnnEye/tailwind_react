@@ -4,6 +4,7 @@ import AdvertiserPageBar from "../components/AdvertiserPageBar";
 import PublisherProfile from "../components/PublisherProfile";
 import OfferDetails from "../components/OfferDetails";
 import OfferAssets from "../components/OfferAssets";
+import SettingsOffer from "../components/SettingsOffer";
 
 const Offers = () => {
   return (
@@ -15,6 +16,7 @@ const Offers = () => {
         <div className="flex flex-col">
             <OfferDetails />
             <OfferAssets />
+            <SettingsOffer />
         </div>
       </div>
     </div>
