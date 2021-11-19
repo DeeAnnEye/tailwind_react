@@ -52,10 +52,42 @@ const ComposeEmailSettings = () => {
               rows="20"
               name="comment"
               id="comment"
-              style={{width:'80vw'}}
+              style={{ width: "80vw" }}
               class="shadow-sm ml-4 mr-10 focus:ring-indigo-500 focus:border-indigo-500 block  sm:text-sm border border-gray-300 rounded-md"
             ></textarea>
           </div>
+        </div>
+        <div className="flex flex-row justify-end gap-8 mr-20">
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Save as template
+          </button>
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Save as draft
+          </button>
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Schedule
+          </button>
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-base  rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Preview and Send
+          </button>
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-base rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Send
+          </button>
         </div>
       </div>
     </div>
