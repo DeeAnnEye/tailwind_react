@@ -9,6 +9,7 @@ import ScheduleChange from "../components/ScheduleChange";
 import PublisherOffer from "../components/PublisherOffer";
 import OfferPGB from "../components/OfferPGB";
 import OfferCommissions from "../components/OfferCommissions";
+import OfferDistribution from "../components/OfferDistribution";
 
 const Offers = () => {
   return (
@@ -27,6 +28,7 @@ const Offers = () => {
         <div className="flex flex-col">
           <OfferPGB />
           <OfferCommissions />
+          <OfferDistribution />
         </div>
       </div>
     </div>
