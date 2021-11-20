@@ -8,8 +8,8 @@ const AdvertiserActivityLog = () => {
       </div>
     </div>
     <div className="flex flex-row justify-between h-20 py-4 px-4 border border-b-gray">
+      <div className="flex flex-row gap-2">
     <img class="h-7 w-7 rounded-3xl" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
-      {/* <span class="absolute inset-0 shadow-inner rounded-full" aria-hidden="true"></span> */}
       <div className="flex flex-col items-start">
         <div>
       Whitney Francis
@@ -17,14 +17,15 @@ const AdvertiserActivityLog = () => {
       <div className="text-gray-500">
       Added [action]
       </div>
-      </div>
-      <div className="text-gray-500">
+    </div>
+    </div>
+    <div className="text-right text-gray-500">
         Timestamp
       </div>
     </div>
     <div className="flex flex-row justify-between h-20 py-4 px-4 border border-b-gray">
+      <div className="flex flex-row gap-2">
     <img class="h-7 w-7 rounded-3xl" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
-      {/* <span class="absolute inset-0 shadow-inner rounded-full" aria-hidden="true"></span> */}
       <div className="flex flex-col items-start">
         <div>
       Whitney Francis
@@ -32,14 +33,15 @@ const AdvertiserActivityLog = () => {
       <div className="text-gray-500">
       Added [action]
       </div>
-      </div>
-      <div className="text-gray-500">
+    </div>
+    </div>
+    <div className="text-right text-gray-500">
         Timestamp
       </div>
     </div>
     <div className="flex flex-row justify-between h-20 py-4 px-4 border border-b-gray">
+      <div className="flex flex-row gap-2">
     <img class="h-7 w-7 rounded-3xl" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
-      {/* <span class="absolute inset-0 shadow-inner rounded-full" aria-hidden="true"></span> */}
       <div className="flex flex-col items-start">
         <div>
       Whitney Francis
@@ -47,11 +49,30 @@ const AdvertiserActivityLog = () => {
       <div className="text-gray-500">
       Added [action]
       </div>
-      </div>
-      <div className="text-gray-500">
+    </div>
+    </div>
+    <div className="text-right text-gray-500">
         Timestamp
       </div>
     </div>
+    <div className="flex flex-row justify-between h-20 py-4 px-4 border border-b-gray">
+      <div className="flex flex-row gap-2">
+    <img class="h-7 w-7 rounded-3xl" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
+      <div className="flex flex-col items-start">
+        <div>
+      Whitney Francis
+      </div>
+      <div className="text-gray-500">
+      Added [action]
+      </div>
+    </div>
+    </div>
+    <div className="text-right text-gray-500">
+        Timestamp
+      </div>
+    </div>
+   
+    
     </div>
 }
 

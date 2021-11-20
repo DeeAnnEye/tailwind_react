@@ -12,6 +12,7 @@ import OfferCommissions from "../components/OfferCommissions";
 import OfferDistribution from "../components/OfferDistribution";
 import TrackingOffer from "../components/TrackingOffer";
 import OfferTargeting from "../components/OfferTargeting";
+import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 
 const Offers = () => {
   return (
@@ -33,6 +34,7 @@ const Offers = () => {
           <OfferDistribution />
           <TrackingOffer />
           <OfferTargeting />
+          <AdvertiserActivityLog />
         </div>
       </div>
     </div>
