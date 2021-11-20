@@ -11,6 +11,7 @@ import OfferPGB from "../components/OfferPGB";
 import OfferCommissions from "../components/OfferCommissions";
 import OfferDistribution from "../components/OfferDistribution";
 import TrackingOffer from "../components/TrackingOffer";
+import OfferTargeting from "../components/OfferTargeting";
 
 const Offers = () => {
   return (
@@ -31,6 +32,7 @@ const Offers = () => {
           <OfferCommissions />
           <OfferDistribution />
           <TrackingOffer />
+          <OfferTargeting />
         </div>
       </div>
     </div>
