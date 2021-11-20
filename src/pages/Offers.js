@@ -16,6 +16,7 @@ import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 import OfferConversionPixel from "../components/OfferConversionPixel";
 import OfferDetailsAction from "../components/OfferDetailsAction";
 import OfferAssetsAction from "../components/OfferAssetsAction";
+import OfferScheduleChange from "../components/OfferScheduleChange";
 
 const Offers = () => {
   return (
@@ -46,6 +47,7 @@ const Offers = () => {
         <div className="flex flex-col">
       <OfferDetailsAction />
       <OfferAssetsAction />
+      <OfferScheduleChange />
       </div>
       </div>
     </div>
