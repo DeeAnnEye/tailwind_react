@@ -10,6 +10,7 @@ import Advertiser from "./Advertiser.js";
 import Billing from "./Billing.js";
 import ManageAdvertiser from "./ManageAdvertiser.js";
 import ManagePublisher from "./ManagePublisher.js";
+import OfferList from "./OfferList.js";
 import Offers from "./Offers.js";
 import Publisher from "./Publisher.js";
 import Settings from "./Settings.js";
@@ -28,6 +29,7 @@ return (
         <Route path='/manage-publisher' element={<ManagePublisher/>} />
         <Route path='/settings' element={<Settings/>} />
         <Route path='/offers' element={<Offers/>} />
+        <Route path='/offer-list' element={<OfferList/>} />
         </Routes>
     </div>   
 </Router>
