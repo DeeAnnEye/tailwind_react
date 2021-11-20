@@ -74,158 +74,145 @@ const OfferDetailsAction = () => {
         </div>
         <dl className="grid grid-cols-1 gap-x-4 gap-y-2 mt-8 sm:grid-cols-2">
           <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-              Status:
-            </dt>
+            <dt className="text-left font-small text-gray-500">Status:</dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Active</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Active</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
             <dt className="text-left font-small text-gray-500">
-            Conversion Type:
+              Conversion Type:
             </dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Email, Submit</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Email, Submit</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
+            </dd>
+          </div>
+          <div className="sm:col-span-1">
+            <dt className="text-left font-small text-gray-500">Vertical:</dt>
+            <dd className="mt-1 text-left text-gray-600">
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Insurance</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
             <dt className="text-left font-small text-gray-500">
-            Vertical: 
+              Conversion Point:
             </dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Insurance</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Margot Fostor</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-            Conversion Point:
-            </dt>
+            <dt className="text-left font-small text-gray-500">Incentive:</dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Margot Fostor</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Non-incent</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-            Incentive:
-            </dt>
+            <dt className="text-left font-small text-gray-500">Channel:</dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Non-incent</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Desktop, Mobile</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-            Channel:
-            </dt>
+            <dt className="text-left font-small text-gray-500">Group:</dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Desktop, Mobile</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Group Name</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
           <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-            Group:
-            </dt>
+            <dt className="text-left font-small text-gray-500">Tag:</dt>
             <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Group Name</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
+              <div class="sm:col-span-2">
+                <select
+                  id="card"
+                  name="mastercard"
+                  autocomplete="card-name"
+                  class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                >
+                  <option>Tag Name</option>
+                  <option>card 2</option>
+                  <option>card 3</option>
+                </select>
+              </div>
             </dd>
           </div>
-          <div className="sm:col-span-1">
-            <dt className="text-left font-small text-gray-500">
-            Tag:
-            </dt>
-            <dd className="mt-1 text-left text-gray-600">
-            <div class="sm:col-span-2">
-                  <select
-                    id="card"
-                    name="mastercard"
-                    autocomplete="card-name"
-                    class="block w-64 pl-3 pr-10 py-2 text-sm text-gray-500 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                  >
-                    <option>Tag Name</option>
-                    <option>card 2</option>
-                    <option>card 3</option>
-                  </select>
-                </div>
-            </dd>
-          </div>
-         
         </dl>
       </div>
     </div>

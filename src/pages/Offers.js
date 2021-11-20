@@ -15,6 +15,7 @@ import OfferTargeting from "../components/OfferTargeting";
 import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 import OfferConversionPixel from "../components/OfferConversionPixel";
 import OfferDetailsAction from "../components/OfferDetailsAction";
+import OfferAssetsAction from "../components/OfferAssetsAction";
 
 const Offers = () => {
   return (
@@ -44,6 +45,7 @@ const Offers = () => {
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
       <OfferDetailsAction />
+      <OfferAssetsAction />
       </div>
       </div>
     </div>
