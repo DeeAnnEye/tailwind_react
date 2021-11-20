@@ -10,6 +10,7 @@ import PublisherOffer from "../components/PublisherOffer";
 import OfferPGB from "../components/OfferPGB";
 import OfferCommissions from "../components/OfferCommissions";
 import OfferDistribution from "../components/OfferDistribution";
+import TrackingOffer from "../components/TrackingOffer";
 
 const Offers = () => {
   return (
@@ -29,6 +30,7 @@ const Offers = () => {
           <OfferPGB />
           <OfferCommissions />
           <OfferDistribution />
+          <TrackingOffer />
         </div>
       </div>
     </div>
