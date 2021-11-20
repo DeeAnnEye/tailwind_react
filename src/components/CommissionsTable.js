@@ -8,25 +8,25 @@ const CommissionsTable = () => {
           <tr>
             <th
               scope="col"
-              class="px-10 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              class="px-10 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               PUBLISHER
             </th>
             <th
               scope="col"
-              class="px-10 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              class="px-10 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               REVENUE
             </th>
             <th
               scope="col"
-              class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               PAYOUT
             </th>
             <th
               scope="col"
-              class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               OFFER CAP
             </th>
