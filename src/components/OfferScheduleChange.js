@@ -1,4 +1,5 @@
 import React from "react";
+import ScheduleChangeTable from "./ScheduleChangeTable";
 
 const OfferScheduleChange = () => {
   return (
@@ -238,6 +239,7 @@ const OfferScheduleChange = () => {
             </dd>
           </div>
         </dl>
+        <ScheduleChangeTable />
       </div>
     </div>
   );
