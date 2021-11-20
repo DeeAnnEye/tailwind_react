@@ -20,6 +20,7 @@ import OfferScheduleChange from "../components/OfferScheduleChange";
 import OfferCommissionsTable from "../components/OfferCommissionsTable";
 import DistributionAction from "../components/DistributionAction";
 import TargetingAction from "../components/TargetingAction";
+import SettingsAction from "../components/SettingsAction";
 
 const Offers = () => {
   return (
@@ -56,6 +57,7 @@ const Offers = () => {
         <OfferCommissionsTable />
         <DistributionAction />
         <TargetingAction />
+        <SettingsAction />
       </div>
       </div>
     </div>
