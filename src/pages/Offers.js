@@ -13,6 +13,7 @@ import OfferDistribution from "../components/OfferDistribution";
 import TrackingOffer from "../components/TrackingOffer";
 import OfferTargeting from "../components/OfferTargeting";
 import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
+import OfferConversionPixel from "../components/OfferConversionPixel";
 
 const Offers = () => {
   return (
@@ -35,6 +36,7 @@ const Offers = () => {
           <TrackingOffer />
           <OfferTargeting />
           <AdvertiserActivityLog />
+          <OfferConversionPixel />
         </div>
       </div>
     </div>
