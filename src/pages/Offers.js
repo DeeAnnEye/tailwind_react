@@ -19,6 +19,7 @@ import OfferAssetsAction from "../components/OfferAssetsAction";
 import OfferScheduleChange from "../components/OfferScheduleChange";
 import OfferCommissionsTable from "../components/OfferCommissionsTable";
 import DistributionAction from "../components/DistributionAction";
+import TargetingAction from "../components/TargetingAction";
 
 const Offers = () => {
   return (
@@ -54,6 +55,7 @@ const Offers = () => {
       <div className="flex flex-col">
         <OfferCommissionsTable />
         <DistributionAction />
+        <TargetingAction />
       </div>
       </div>
     </div>
