@@ -19,6 +19,7 @@ import OfferListTableD from "../components/OfferListTableD";
 import OfferGroupsPGB from "../components/OfferGroupsPGB";
 import OfferGroupsOptions from "../components/OfferGroupsOptions";
 import OfferListTableE from "../components/OfferListTableE";
+import SuppressionFilesPGB from "../components/SuppressionFilesPGB";
 
 const OfferList = () => {
   return (
@@ -68,6 +69,7 @@ const OfferList = () => {
       <div className="pb-20">
         <NavBar />
         <AdvertiserPageBar />
+        <SuppressionFilesPGB />
       </div>
     </div>
   );
