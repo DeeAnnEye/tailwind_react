@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvertiserPublisher = () => {
   return (
-    <div className="bg-white max-w-1/2 h-3/5 min-w-1/2 shadow overflow-hidden sm:rounded-lg">
+    <div className="mt-2 bg-white shadow overflow-hidden sm:rounded-lg">
       <div className=" flex justify-between px-4 py-5 sm:px-6">
         <div className="text-left text-xl text-gray-800">Publisher Access</div>
       </div>
