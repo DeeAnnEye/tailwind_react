@@ -21,13 +21,14 @@ import OfferCommissionsTable from "../components/OfferCommissionsTable";
 import DistributionAction from "../components/DistributionAction";
 import TargetingAction from "../components/TargetingAction";
 import SettingsAction from "../components/SettingsAction";
+import OfferProfile from "../components/OfferProfile";
 
 const Offers = () => {
   return (
     <div className="min-h-full">
       <NavBar />
       <AdvertiserPageBar />
-      <PublisherProfile />
+      <OfferProfile />
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
             <OfferDetails />
