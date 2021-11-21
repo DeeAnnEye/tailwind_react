@@ -14,6 +14,7 @@ import OfferApplicationsOptions from "../components/OfferApplicationsOptions";
 import OfferListTableC from "../components/OfferListTableC";
 import OfferAppOptions from "../components/OfferAppOptions";
 import OfferVerticalsPGB from "../components/OfferVerticalsPGB";
+import OfferVerticalsOptions from "../components/OfferVerticalsOptions";
 
 const OfferList = () => {
   return (
@@ -48,6 +49,7 @@ const OfferList = () => {
         <NavBar />
         <AdvertiserPageBar />
         <OfferVerticalsPGB />
+        <OfferVerticalsOptions />
       </div>
     </div>
   );
