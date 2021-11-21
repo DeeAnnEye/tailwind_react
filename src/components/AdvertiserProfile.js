@@ -18,7 +18,9 @@ const AdvertiserProfile = () => {
           </div>
         </div>
         <div className="ml-2">
-          <h1 class="text-3xl font-bold text-gray-900">Advertiser Name</h1>
+          <h1 class="text-left text-3xl font-bold text-gray-900">
+            Advertiser Name
+          </h1>
           <div className="flex flex-row gap-4">
             <div className="flex flex-row gap-1 mt-2">
               <svg
@@ -37,10 +39,48 @@ const AdvertiserProfile = () => {
               <p class="text-lg text-gray-400 self-center">Company: Adv Llc</p>
             </div>
             <div className="flex flex-row gap-1 mt-2">
-              <svg class="h-5 w-5 self-center" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                class="h-5 w-5 self-center"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle cx="50" cy="50" r="40" fill="gray" />
               </svg>
               <p class="text-lg text-gray-400 self-center">ID: 123</p>
+            </div>
+            <div className="flex flex-row gap-1 mt-2">
+              <svg
+                class="h-5 w-5 self-center"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="50" cy="50" r="40" fill="gray" />
+              </svg>
+              <p class="text-lg text-gray-400 self-center">Status: Active</p>
+            </div>
+            <div className="flex flex-row gap-1 mt-2">
+              <svg
+                class="h-5 w-5 self-center"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="50" cy="50" r="40" fill="gray" />
+              </svg>
+              <p class="text-lg text-gray-400 self-center">
+                Account Manager: Name
+              </p>
+            </div>
+            <div className="flex flex-row gap-1 mt-2">
+              <svg
+                class="h-5 w-5 self-center"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="50" cy="50" r="40" fill="gray" />
+              </svg>
+              <p class="text-lg text-gray-400 self-center">
+                Phone: +1 1234 123 345
+              </p>
             </div>
           </div>
         </div>
@@ -48,14 +88,36 @@ const AdvertiserProfile = () => {
       <div class="mt-6 flex flex-col-reverse justify-stretch space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-x-reverse sm:space-y-0 sm:space-x-3 md:mt-0 md:flex-row md:space-x-3">
         <button
           type="button"
-          class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+          className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
         >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="pr-2 h-7 w-7"
+            viewBox="0 0 20 20"
+            fill="gray"
+          >
+            <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+          </svg>
           Edit
         </button>
         <button
           type="button"
-          class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+          className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
         >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="pr-2 h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="gray"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+            />
+          </svg>
           Website
         </button>
       </div>

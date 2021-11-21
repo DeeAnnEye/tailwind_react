@@ -10,6 +10,7 @@ import AdvertiserActivityLog from "../components/AdvertiserActivityLog";
 import AdvertiserDetailsEdit from "../components/AdvertiserDetailsEdit";
 // import EditTable from "../components/EditTable"
 import AdvertiserUserEdit from "../components/AdvertiserUserEdit";
+import ProfileChange from "../components/ProfileChange";
 
 const Advertiser = () => {
   return (
@@ -27,7 +28,7 @@ const Advertiser = () => {
           <AdvertiserActivityLog />
         </div>
       </div>
-      <AdvertiserProfile />
+      <ProfileChange />
       <AdvertiserDetailsEdit />
       <AdvertiserUserEdit />
     </div>

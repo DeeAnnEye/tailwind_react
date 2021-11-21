@@ -14,12 +14,14 @@ import BillingDetails from "../components/BillingDetails";
 import AdvertiserDetailsEdit from "../components/AdvertiserDetailsEdit";
 import BillingDetailsAction from "../components/BillingDetailsAction";
 import AdvertiserUserEdit from "../components/AdvertiserUserEdit";
+import AdvertiserProfile from "../components/AdvertiserProfile";
+import ProfileChange from "../components/ProfileChange";
 
 const Publisher = () => {
   return <div class="min-h-full">
       <NavBar />
       <AdvertiserPageBar />
-      <PublisherProfile />
+     <AdvertiserProfile />
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
           <PublisherDetails />
@@ -36,7 +38,7 @@ const Publisher = () => {
         </div>
         </div>
         <div className="mt-2">
-        <PublisherProfile />
+        <ProfileChange />
         <div className="flex flex-row gap-4 mb-8">
           <AdvertiserDetailsEdit />
           <BillingDetailsAction />
