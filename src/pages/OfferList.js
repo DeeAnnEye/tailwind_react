@@ -12,6 +12,7 @@ import OfferOptions from "../components/OfferOptions";
 import OfferApplicationsPGB from "../components/OfferApplicationsPGB";
 import OfferApplicationsOptions from "../components/OfferApplicationsOptions";
 import OfferListTableC from "../components/OfferListTableC";
+import OfferAppOptions from "../components/OfferAppOptions";
 
 const OfferList = () => {
   return (
@@ -39,6 +40,8 @@ const OfferList = () => {
         <OfferApplicationsPGB />
        <OfferApplicationsOptions />
        <OfferListTableC />
+       <OfferAppOptions />
+       <AdvertiserPagination />
       </div>
     </div>
   );
