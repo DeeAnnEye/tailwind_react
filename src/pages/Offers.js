@@ -22,6 +22,7 @@ import DistributionAction from "../components/DistributionAction";
 import TargetingAction from "../components/TargetingAction";
 import SettingsAction from "../components/SettingsAction";
 import OfferProfile from "../components/OfferProfile";
+import OfferProfileChange from "../components/OfferProfileChange";
 
 const Offers = () => {
   return (
@@ -47,7 +48,7 @@ const Offers = () => {
           <OfferConversionPixel />
         </div>
       </div>
-      <PublisherProfile />
+      <OfferProfileChange />
       <div className=" grid grid-cols-2 px-4 py-4 gap-4 mx-4 pb-20 bg-white shadow">
         <div className="flex flex-col">
       <OfferDetailsAction />
