@@ -16,6 +16,7 @@ import OfferAppOptions from "../components/OfferAppOptions";
 import OfferVerticalsPGB from "../components/OfferVerticalsPGB";
 import OfferVerticalsOptions from "../components/OfferVerticalsOptions";
 import OfferListTableD from "../components/OfferListTableD";
+import OfferGroupsPGB from "../components/OfferGroupsPGB";
 
 const OfferList = () => {
   return (
@@ -52,6 +53,12 @@ const OfferList = () => {
         <OfferVerticalsPGB />
         <OfferVerticalsOptions />
         <OfferListTableD />
+        <AdvertiserPagination />
+      </div>
+      <div className="pb-20">
+        <NavBar />
+        <AdvertiserPageBar />
+        <OfferGroupsPGB />
       </div>
     </div>
   );
